@@ -35,7 +35,6 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'analysis',
-
 ]
 
 MIDDLEWARE = [
@@ -130,4 +129,4 @@ MAILERS = {
 }
 
 # Docker 단계에서는 코드 수정 없이 AI_SERVICE_URL만 바꿈
-AI_SERVICE_URL = os.environ.get('AI_SERVICE_URL', 'http:./127.0.0.1:8001')
+AI_SERVICE_URL = os.environ.get('AI_SERVICE_URL', 'http://127.0.0.1:8001')
