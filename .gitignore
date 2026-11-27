@@ -1,0 +1,23 @@
+# 가상환경
+.venv/
+
+# 파이썬 캐시
+__pycache__/
+*.pyc
+
+# Django 실행하면 생기는 것
+db.sqlite3
+media/
+
+# AI 학습 파일 · 영상 (용량 커서 git 금지)
+ai_service/models/
+*.pt
+*.joblib
+*.mp4
+
+# 비밀 설정
+.env
+
+# 에디터 · OS
+.vscode/
+.DS_Store
